@@ -37,6 +37,11 @@ The extension monitors your device's battery status in the background and displa
 
 ## Installation
 
+### From Chrome Web Store
+
+1. Install from [Chrome Web Store](https://chromewebstore.google.com/detail/battery-charging-change-n/jdfeolgfbgggmjppjfiibmlcbenmgbbp)
+2. The extension will start working immediately after installation (if your notifications settings in your os and browser preferences are set correctly)
+
 ### From Github
 
 1. Download zip-file from github [Download](https://github.com/johanhs/battery-charging-change-notifier/releases/download/v1.0/battery-charging-change-notifier.zip)
@@ -46,12 +51,6 @@ The extension monitors your device's battery status in the background and displa
 5. Click on the "Load unpacked" button
 6. Choose the extracted/unzipped folder
 7. If your notifications settings in your os and browser preferences are set correctly it should work immediately
-
-### From Chrome Web Store
-
-1. Download from the Chrome Web Store (link coming soon)
-2. The extension will start working immediately after installation
-3. No configuration needed
 
 ## Development
 
@@ -82,7 +81,7 @@ This project uses Yarn 4.9.1 as its package manager. For the best development ex
     # Production build
     yarn build
 
-    # Package build as zip file using node
+    # Package build as cross-platform zip file using node
     yarn package
     ```
 
